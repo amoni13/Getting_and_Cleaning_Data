@@ -16,21 +16,31 @@ The initial data for the project can be found here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
-#	Submitted tidy_data.txt 
-
-#	One R script called run_analysis.R that does the following: 
+###	Project includes one R script called run_analysis.R that does the following: 
 Line 2: Reads files from the working directory and creates a merged dataset of provided measurements. dim: 10299 obs. of 561 variables.
+
 Line 3-4: Reads file and appends the variable names to the data from Line 2 .
+
 Line 7: Extracts variables which are a calculated mean or standard deviation.  This excludes variables reporting mean Frequency or where mean was used as a variable of the called function. 66 variables met these criteria.
+
 Line 9: Creates a subset of the data with only those selected measurements in from Line 7 and preserves the order of the original.  dim: 10299obs. of 66 variables. 
+
 Line 12-13: Reads file and creates a merged dataset of all activities preformed to generate the reported measurements.  This variable is given the name “activity.”
+
 Line 14-15: Reads file and creates a merged dataset for all study participants.  This variable is given the name “participant.”
+
 Line 17: Table of selected measurements is appended to include the participant and activity variables. dim: 10299obs. of 68 variables 
+
 Line 20: A vector is created to recode the activity data with descriptive character values.
+
 Line 21: Labels activity observations with descriptive values.
+
 Line 24: Opens dplyr package
+
 Line 25: Using dplyr package, groups data by each activity and participant.
+
 Line26: Using dplyr package, creates a tidy data set reporting the mean for each measurement by activity and study participant. dim: 180 obs. of 68 variables
+
 Line 29: Saves tidy dataset into working directory under the file name “tidy_data.txt”.
 
-#	Codebook.md describes the variables, the data, and further explains the work performed to clean up the data.
+#	Project includes one Codebook.md which describes the variables, the data, and further explains the work performed to create the tidy dataset from the initial data files.
