@@ -43,4 +43,4 @@ Line26: Using dplyr package, creates a tidy data set reporting the mean for each
 
 Line 29: Saves tidy dataset into working directory under the file name “tidy_data.txt”.
 
-#	Project includes one Codebook.md which describes the variables, the data, and further explains the work performed to create the tidy dataset from the initial data files.
+###	Project includes one Codebook.md### which describes the variables, the data, and further explains the work performed to create the tidy dataset from the initial data files.
