@@ -1,7 +1,7 @@
 ##CodeBook
 #####For tidy dataset created in the completion of Course Project
 
-The code included in 'run_anlaysis.R' presents a tidy version of the mean and standard deviation data found in its unaltered from here:
+The code included in 'run_anlaysis.R' presents a tidy version of the mean and standard deviation data found in its unaltered from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
 The dataset coded for combines all study observations regardless of their assignment to the test group or training groups as described in the supporting documentation of the original data set. 
 
