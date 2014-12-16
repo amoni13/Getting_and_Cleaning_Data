@@ -6,9 +6,11 @@ The code included in 'run_anlaysis.R' presents a tidy version of the mean and st
 The dataset coded for combines all study observations regardless of their assignment to the test group or training groups as described in the supporting documentation of the original data set. 
 
 Column 1: Activity
+
 This variable indicates the activity for which each measurement was taken.  Six activities were performed by study participants: Walking, Walking Upstairs, Walking Downstairs, Standing, Sitting, and Laying.  This variable has been recoded from the original to offer the descriptive name of each activity in the tidy data set.
 
 Colum2:  Participant
+
 Study participants were assigned a number 1-30 to track each participant across activity levels.  
 
 ####Remaining Variables
@@ -26,19 +28,35 @@ These signals were used to estimate variables of the feature vector for each pat
 Included in the tidy dataset is the average for the estimated mean and standard deviation from each of these signal variables organized by activity and participant:
 
 Columns 3:8  	 'tBodyAcc-XYZ'
+
 Columns 9:14	 'tGravityAcc-XYZ'
+
 Columns 15:20	 'tBodyAccJerk-XYZ'
+
 Columns 21:26	 'tBodyGyro-XYZ'
+
 Columns 27:32  'tBodyGyroJerk-XYZ'
+
 Columns 33:34	 'tBodyAccMag'
+
 Columns 35:36	 'tGravityAccMag'
+
 Columns 37:38	 'tBodyAccJerkMag'
+
 Columns 39:40  'tBodyGyroMag'
+
 Columns 41:42  'tBodyGyroJerkMag'
+
 Columns 43:48  'fBodyAcc-XYZ'
+
 Columns 49:54  'fBodyAccJerk-XYZ'
+
 Columns 55:60  'fBodyGyro-XYZ'
+
 Columns 61:62  'fBodyAccMag'
+
 Columns 63:64  'fBodyAccJerkMag'
+
 Columns 65:66  'fBodyGyroMag'
+
 Columns 66:68  'fBodyGyroJerkMag'
